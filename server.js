@@ -30,7 +30,8 @@ mongoose.connect(dataBaseURL, connectParams)
 
 
 app.get("/", (request, response) => {
-    response.send("Welcome to Home page")
+    console.log('Backend Developer Crudapp')
+    response.send("Backend Developer Crudapp")
 })
 
 
