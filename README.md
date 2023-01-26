@@ -16,12 +16,22 @@ Postman is an API platform for developers to design, build, test and iterate the
 # Error Handling
 Error Handling is being implemented using Nodejs. its uses the catch block to catch any errors that might occour during the API operation. The API will also validate the data sent by users, to ensure that all required fields are present. If any error occurs during the operation, an appropriate error message will be retruned to the users. 
  # Important Links
-To fetch all users, open postman, set the url to GET, insert the link bellow and the click Send
+To fetch all users, open postman, set the url to GET, insert the link bellow and then click Send
 ```
 https://puzzled-slug-sunbonnet.cyclic.app/api/fetch-users/all
 ```
 
-To create a user
+To create a user \\
+Goto Postman, set the Url to Post because user is required to put into the database, insert the link as the link bellow.. \\
+
+on the body section, insert user values as 
+{ \\
+    "first_name": "John", \\
+    "last_name": "Doe", \\
+    "email": "johndoe@gmail.com", \\
+} \\
+\\
+click Send
 ```
 https://puzzled-slug-sunbonnet.cyclic.app/api/create
 ```
