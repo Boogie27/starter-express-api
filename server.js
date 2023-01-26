@@ -4,7 +4,7 @@ const app = express()
 const cors = require('cors')
 
 // routes
-const PostRoute = require('./routes/PostRoute') 
+const UserRoute = require('./routes/UserRoute') 
 
 
 
@@ -38,10 +38,14 @@ app.get("/", (request, response) => {
 
 
 // post content
-app.use(PostRoute)
+app.use(UserRoute)
 
 
 
 app.listen(PORT, () => {
     console.log("Server running on port: " + PORT)
 })
+
+
+
+
