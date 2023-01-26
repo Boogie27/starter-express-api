@@ -19,5 +19,11 @@ To create a user
 ```
 https://puzzled-slug-sunbonnet.cyclic.app/api/create
 ```
+on postman, specify fields as 
+{
+    "first_name": "rambo",
+    "last_name": "json",
+    "email": "bombojson@gmail.com"
+}
 
 ### Deploy it in 7 seconds:
