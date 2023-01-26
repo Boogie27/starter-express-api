@@ -11,7 +11,9 @@ The project is a nodejs crudapp with mongoDB database that performs crud operati
 
 # implementation
 The API is developedusing Nodejs framework. This framework will provide all the neccessary toolds needed to create a RestfulAPI. A MongoDB database is used to store user information. The API will be able to create, read, update and delete users from database.
- 
+
+# Error Handling
+Error Handling is being implemented using Nodejs. its uses the catch block to catch any errors that might occour during the API operation. The API will also validate the data sent by users, to ensure that all required fields are present. If any error occurs during the operation, an appropriate error message will be retruned to the users. 
  # Important Links
  To fetch all users in the table 
 ```
