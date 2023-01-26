@@ -24,12 +24,17 @@ https://puzzled-slug-sunbonnet.cyclic.app/api/fetch-users/all
 To create a user,
 Goto Postman, set the Url to Post because user is required to put into the database, insert the link as the link bellow.. 
 on the body section, insert user values as 
+```
 { 
     "first_name": "John", 
     "last_name": "Doe", 
     "email": "johndoe@gmail.com", 
 } 
+```
 click Send
+
 ```
 https://puzzled-slug-sunbonnet.cyclic.app/api/create
 ```
+
+To Update user, set the post man url to post
