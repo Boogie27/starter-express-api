@@ -1,12 +1,13 @@
 # Technology
 Nodejs
 MongoDB
+PostMan
 
 # Project
 The project is a nodejs crudapp with mongoDB database that performs crud operation like Create, Read, Update and Delete on user table.
 
  # Design Choice
- I made use of Models, Routs and Controllers because it makes implementation easy, code neat and easy to read. every operation has its own Route, and controllers where different functions relating to that operation is located. this means that to implement a feature about users, there is going to be a userController, userRoute and User model. Route specifies the different routes,  it can be a get route, post rout or put rout. there is also the Model, Model specified database Schemas. this is a template that specifies how data will be stored or retrieved from the database.
+ I made use of Models, Routs and Controllers because it makes implementation easy, code neat and easy to read. every operation has its own Route, and controllers where different functions relating to that operation is located. this means that to implement a feature about users, there is going to be a userController, userRoute and User model. Route specifies the different routes, it can be a get route, post route or put route. there is also the Model, Model specified database Schemas. this is a template that specifies how data will be stored or retrieved from the database.
 
 # PostMan
 Postman is an API platform for developers to design, build, test and iterate their APIs. In this project we made us of Postman to perform the neccessary Crud operation
