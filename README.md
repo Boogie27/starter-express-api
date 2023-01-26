@@ -16,7 +16,7 @@ Postman is an API platform for developers to design, build, test and iterate the
 Error Handling is being implemented using Nodejs. its uses the catch block to catch any errors that might occour during the API operation. The API will also validate the data sent by users, to ensure that all required fields are present. If any error occurs during the operation, an appropriate error message will be retruned to the users. 
 
 # implementation
-The API is developedusing Nodejs framework. This framework will provide all the neccessary toolds needed to create a RestfulAPI. A MongoDB database is used to store user information. The API will be able to create, read, update and delete users from database.
+The API is developedusing Nodejs framework. This framework will provide all the neccessary tools needed to create a RestfulAPI. A MongoDB database is used to store user information. The API will be able to create, read, update and delete users from database.
 
 To fetch all users, open postman, set the url to GET, insert the link bellow and then click Send
 ```
